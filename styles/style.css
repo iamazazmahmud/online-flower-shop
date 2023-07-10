@@ -10,7 +10,6 @@ body{
 }
 
 .btn-primary{
-    background-color: ;
     color: #FFF;
     font-size: 16px;
     font-weight: 700;
@@ -29,9 +28,8 @@ body{
 
 .section-description {
     color: rgba(39, 39, 39, 0.60);
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 30px;
     margin-bottom: 15px;
 }
 
@@ -85,6 +83,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 30px;
 }
 
 .featured-flower-box {
@@ -92,11 +91,9 @@ body{
     align-items:end;
     justify-content: center;
     border-radius: 300px 300px 0px 0px;
-    background-color: #E55473;
     overflow: hidden;
-    width: 320px;
-    height: 350px;
-    margin-right: 15px;
+    width: 380px;
+    height: 400px;
     margin-bottom: 20px;
 }
 
@@ -105,7 +102,7 @@ body{
 }
 
 .featured-flower{
-    width: 200px;
+    width: 250px;
 }
 
 #featured-flower1{
@@ -134,7 +131,7 @@ body{
 /* Specialty Section  */
 .specialty-container{
     display: flex;
-    margin: 128px 200px 128px 200px;
+    margin: 40px 200px 128px 200px;
     justify-content: center;
     align-items: center;
     gap: 50px;
@@ -164,9 +161,11 @@ body{
 .hot-deal-container{
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: rgba(229, 84, 115, 0.10);
-    padding: 50px 200px 0px 200px;
+    padding: 50px 200px 50px 200px;
     gap: 100px;
+
 }
 
 .hot-deal-text {
@@ -188,63 +187,67 @@ body{
 
 /* Instagram Feed Section */ 
 
-.feature-flower-section-container{
+.instagram-feed-section-container{
     text-align: center;
     padding-top: 150px;
     padding-bottom: 100px;
 }
 
-.featured-flower-container {
+.instagram-feed-container {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 20px;
+    margin: 40px 200px 0px 200px;
 }
 
-.featured-flower-box {
-    display: flex;
-    align-items:end;
-    justify-content: center;
-    border-radius: 300px 300px 0px 0px;
-    background-color: #E55473;
-    overflow: hidden;
-    width: 320px;
-    height: 350px;
-    margin-right: 15px;
-    margin-bottom: 20px;
-}
-
-.featured-flower-main-box {
-    margin-top: 50px;
-}
-
-.featured-flower{
-    width: 200px;
-}
-
-#featured-flower1{
-    background: rgba(167, 33, 98, 0.15);
-}
-
-#featured-flower2{
-    background: rgba(5, 151, 160, 0.15);
-    display: flex;
-    align-items: center;
-}
-
-#featured-flower3{
-    background: rgba(71, 125, 17, 0.15);   
-}
-
-.featured-link{
-    text-decoration: none;
-    color: #272727;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 35px;
-    text-decoration-line: underline;
+.instagram-flower{
+    width: 280px;
 }
 
 /* Testimonial Section (Extra) */ 
+.testimonial-section-container{ 
+    text-align: center;
+    margin-top: 80px;
+    background: rgba(229, 84, 115, 0.05);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.testimonial-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+
+
+.testimonial-box{
+    background-color: white;
+    padding: 20px;
+}
+.testimonial-image{
+    height: 100px;
+    border-radius: 50px;
+    border: #FFF;
+    margin-top: -50px;
+}
+
+.customer-name {
+    font-size: 14px;
+    font-weight: 500px;
+    color: rgba(23, 23, 23, 0.6);
+}
+
+.testimonial-title{
+    font-size: 18px;
+    font-weight: 500px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 10px;
+}
 
 /* CTA / Subscribe for Newsletter Section */
 
