@@ -69,6 +69,11 @@ body{
     margin-bottom: 20px;
 }
 
+.banner-image{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
 .banner-hero{
     height: 650px;
 }
