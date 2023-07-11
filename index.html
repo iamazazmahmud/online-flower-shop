@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/4c13602664.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -19,7 +20,7 @@
                     Let's make <br>beautiful flowers a <br>part of your life.
                 </h3>
                 <p class="banner-description">
-                    It is a long established fact that a reader will be distracted by the readable <br>content of a page when looking at its layout. The point of using Lorem Ipsum is <br>that it has a more-or-less normal distribution of letters.
+                    It is a long established fact that a reader will be distracted by the<br>readable content of a page when looking at its layout. The point of<br>using Lorem Ipsum is that it has a more-or-less normal distribution.
                 </p>
                 <button class="btn-primary">
                     Shop Now
@@ -144,6 +145,9 @@
                 <h2 class="section-title">Here's What Our Customers Are Saying</h2>
                 <p class="section-description">Discover what our satisfied customers have<br>to say about their delightful experiences.</p>
                 <div class="testimonial-container">
+                    <div class="slider-icon">
+                        <i class="fa fa-solid fa-caret-left"></i>
+                    </div>
                     <div class="testimonial-box">
                         <img src="images/man1.png" alt="" class="testimonial-image">
                         <h3 class="testimonial-title">Fabulous Flowers!</h3>
@@ -164,14 +168,35 @@
                         <p class="section-description">I highly recommend this online flower shop!<br>The customer service was exceptional, and the<br>flowers were beautifully arranged.</p>
                         <h3 class="customer-name">Kuddus Bhai</h3>
                     </div>
+                    <div class="slider-icon">
+                        <i class="fa fa-solid fa-caret-right"></i>
+                    </div>
                 </div>
             </div>
+        </section>
+
+        <!-- CTA/Newsletter Subscription Section--> 
+        <section>
+            <div class="subscribe-container">
+                <div class="subscibe-text">
+                    <h2 class="section-title">Get The Latest Deals</h2>
+                    <p class="section-description">$30 coupon for first shopping</p>
+                </div>
+                <form action="" class="subscribe">
+                    <input type="email" name="" id="email" placeholder="Enter your email here....">
+                    <input type="submit" value="Subscribe" class="btn-primary">
+                </form>
+            </div>   
         </section>
     </main>
 
     <!-- FooterSection--> 
     <footer>
-
+       <div class="footer-container">
+        <h1 class="logo"><span class="primary-color">Flower</span>Shop</h1>
+        <p class="footer-description">It is a long established fact that a reader will be distracted by the readable<br>content of a page when looking at its layout.</p>
+        <p class="copyright-text">&copy; 2020-2023, FlowerShop.com. All rights reserved. </p>
+       </div>
     </footer>
 
 </body>
